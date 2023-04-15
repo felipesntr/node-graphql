@@ -104,7 +104,7 @@ const taskTypeDefs = `#graphql
 export default taskTypeDefs;
 ```
 
-## Etapa 2: Criando um conjunto de dados em memória para testes
+### Etapa 2: Criando um conjunto de dados em memória para testes
 
 Essa é uma etapa bem simples, vamos definir alguns dados para simular o retorno de um banco de dados. Você pode avançar o projeto e integrar com algum banco de dados de sua preferência para tornar a aplicação mais próxima da realidade.
 
@@ -176,7 +176,7 @@ console.log(`🚀  Server ready at: ${url}`);
 
 E por fim, para rodar de fato nossa API, basta executar o comando "npm start" que configuramos no início. Será exibida a mensagem 🚀 "Server ready at: [http://localhost:4000/](http://localhost:4000/)", e poderemos acessar a interface do Apollo no navegador, abrindo o link [http://localhost:4000/](http://localhost:4000/).
 
-## Capítulo 6: Criando nossas consultas GraphQL
+## Capítulo 4: Criando nossas consultas GraphQL
 
 Por fim, com a interface do Apollo aberta, podemos realizar as consultas. Na consulta que fiz abaixo, escolhi trazer somente os campos title, description e status de uma tarefa.
 
@@ -184,6 +184,6 @@ Um dos conceitos mais importantes do GraphQL é que podemos escolher consultar s
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/871e1558-57cc-49b3-b349-0385aea5bf94/Untitled.png)
 
-## Capítulo 8: Conclusão
+## Capítulo 5: Conclusão
 
 Neste artigo, aprendemos como criar um servidor GraphQL simples usando o Apollo Server. Passamos por todas as etapas necessárias, desde a preparação do ambiente até a implementação de resolvers e a execução do servidor. Definimos um schema usando uma das maneiras disponíveis e criamos um conjunto de dados em memória para testes. Com isso, podemos desenvolver APIs e aprofundar ainda mais, adicionando funcionalidades sofisticadas, como integrar um banco de dados e, por fim, fazer o deploy da aplicação em um servidor. Espero que este artigo tenha sido útil e que você possa desenvolver suas aplicações com NodeJS e GraphQL!
